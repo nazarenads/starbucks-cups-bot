@@ -15,6 +15,10 @@ STORES = [
     {
         "name": "Alto Avellaneda",
         "url": f"{HOST_STARBUCKS}/starbucks_alto_avellaneda_40012?category=1143"
+    },
+    {
+        "name": "Unicenter",
+        "url": f"{HOST_STARBUCKS}/starbucks_unicenter_tn_40144?category=1143"
     }
 ]
 
