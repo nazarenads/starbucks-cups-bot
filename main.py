@@ -21,11 +21,7 @@ def get_text_from_cups(browser):
         ))
         time.sleep(5)
         cups_list = browser.find_elements(By.CLASS_NAME, 'business-product')
-        text_list = []
-        for cup in cups_list:
-            cup_name = cup.text
-            text_list.append(cup_name)
-
+        text_list = [cup.text for cup in cups_list]
         text_title = f"{MESSAGE_TITLE}".format(
             store_name=store.get("name")
         )
